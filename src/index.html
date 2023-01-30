@@ -9,6 +9,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/20f120a122.js" crossorigin="anonymous"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB73H_Qu-62fQtTJ7qfC-BDnVe0fqjt2Rw&callback=initMap">
+</script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsKMCWeSlsKEyTYYCKQEOvn0T2pJodkG0&libraries=places&language=en"></script> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      plugins: [
+      require('@tailwindcss/forms'),
+    ],
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
 </head>
 <body class="mat-typography">
   <app-root></app-root>
