@@ -1,0 +1,96 @@
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    position: static;
+    float: none;
+    width: 100%;
+    font-size: 14px;
+    z-index: 5;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: #131922;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .toolbar img {
+    clear: both;
+    cursor: pointer;
+    float: none;
+    top:20px;
+    flex-shrink: 0;
+    padding: 15px 8px 5px 16px;
+    margin: 2px;
+    height: 55px;
+    width: auto;
+  }
+
+  .nav-logo{
+    width: auto;
+    padding: 4px 0 0 0;
+    display: flex;
+    position: relative;
+    float: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-shrink: 0;
+    line-height: 0;
+    height: 100%;
+  }
+
+ .nav-fill {
+    display: flex;
+    position: static;
+    float: none;
+    flex: 1 1 0px;
+    height: 40px;
+    margin-bottom: 0;
+    border-radius: 4px 4px 4px 4px;
+  }
+   #nav-search-text{
+     background-color: snow;
+    color:black;
+     white-space:nowrap;
+     min-width:540px;
+     height:40px;
+    padding: 4px 4px 4px 10px;
+     font-weight: 200;
+    box-shadow:orange;
+     border-radius: 4px 0 0 4px;
+     z-index:1;
+   }
+#nav-search-submit-button{
+/*     user-select: none;
+    white-space: pre; */
+/*     align-items: flex-end; */
+    text-align: center;
+    background-color: #febd69;
+    background-image: url('src/assets/search_FILL0_wght400_GRAD0_opsz48.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+  }
+  .nav-right{
+    float:right;
+  }
+  .nav-search,.language,.user-account,.cart{
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px 4px 10px 3px;
+    height: 60px;
+    margin: 0 6px 0 10px;
+    width:auto;
+    display :flex;
+  }
+  
